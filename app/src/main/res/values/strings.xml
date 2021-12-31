@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="create_acc_text">Creează-ți un cont nou!</string>
+    <string name="login_text">Intră în cont</string>
+    <string name="user_name">Nume de utilizator</string>
+    <string name="password_name">Parola</string>
+    <string name="email_name">Adresa de e-mail</string>
+    <string name="username">username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

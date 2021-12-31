@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.UserFragment">
+
+    <!--RecyclerView makes it easy to efficiently display large sets of data.
+    You supply the data and define how each item looks, and the RecyclerView library dynamically creates the elements when they're needed.
+    As the name implies, RecyclerView recycles those individual elements.
+    When an item scrolls off the screen, RecyclerView doesn't destroy its view.
+    Instead, RecyclerView reuses the view for new items that have scrolled onscreen. This reuse vastly improves performance, improving your app's responsiveness and reducing power consumption.-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Caută..."
+        android:id="@+id/search_users"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/search_users"
+        android:id="@+id/recycler_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
